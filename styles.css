@@ -1,0 +1,324 @@
+/* Style for the header section */
+/* Style for the flag image */
+#flag {
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    width: 70px; /* Adjust the width to your preference */
+    height: auto; /* Automatically adjust the height to maintain the aspect ratio */
+    z-index: 1; /* Ensure the flag appears on top of other content if needed */
+}
+
+/* Style for the background image */
+body {
+    background-image: url('background.img2.jpg'); /* Replace with the actual image path or URL */
+    background-size: cover; /* Adjust the image size to cover the entire viewport */
+    background-attachment: fixed; /* Fix the background in place as the page scrolls */
+}
+
+
+/* Style for the header list */
+header, ul, li {
+    list-style: none;
+    padding: 5px;
+    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    color: black;
+}
+
+/* Style for the list items */
+header ul li {
+    display: flex; /* Display items horizontally */
+    margin-right: 10px; /* Add space between items */
+    float: right; /* Align items to the right */
+}
+
+/* Style for the links */
+header ul li {
+    text-emphasis-color: black;
+    text-decoration: none;
+    color: black; /* Change the color to your preference */
+}
+header ul li a {
+    text-emphasis-color: black;
+    text-decoration: none;
+    color: black; /* Change the color to your preference */
+}
+
+/* Additional style for the links on hover, if desired */
+header ul li a:hover {
+    color: yellow; /* Change the color on hover to your preference */
+}
+
+/* Style for the name box */
+.name-box {
+    font-size: 20px;
+    display: inline-block;
+    padding: 10px;
+    background-color: green; /* Background color for the box */
+    color: #fff; /* Text color inside the box */
+    margin-right: 10px; /* Add spacing between the name and title boxes */
+    border-radius: 5px; /* Add rounded corners to the box */
+}
+
+/* Style for the title box */
+.title-box {
+    font-size: 20px;
+    display: inline-block;
+    padding: 10px;
+    background-color: red; /* Background color for the box */
+    color: #fff; /* Text color inside the box */
+    border-radius: 5px; /* Add rounded corners to the box */
+}
+
+
+/* Style for the 'About Me' section */
+/* Style for the image */
+#about img {
+    width: 200px; /* Set the width of the image */
+    height: 400px; /* Automatically adjust the height to maintain the aspect ratio */
+    border: 4px solid greenyellow; /* Add a border around the image */
+    border-radius: 60px; /* Create a circular image (for a square image) */
+    margin-right: 20px; /* Add spacing to the right of the image */
+    position: relative;
+    float: right;
+}
+
+#about {
+    background-color: #f2f2f2; 
+    padding: 20px; 
+}
+
+/* Style for the section heading */
+#about h2 {
+    font-size: 24px; 
+    color: #333; 
+    margin-bottom: 10px; 
+}
+
+/* Style for the paragraph text */
+#about p {
+    font-size: 19px; 
+    color: #666; 
+    line-height: 1.5; 
+}
+
+/* Style for the 'Skills' section */
+#skills {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+/* Style for the section heading */
+#skills h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Style for the skills list */
+#skills ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Style for individual skills items */
+#skills li {
+    font-size: 19px;
+    color: black;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+/* Style for skills items on hover */
+#skills li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* Adjust the color on hover, if desired */
+#skills li:hover {
+    color: #555;
+}
+
+/* Style for the 'Work Experience' section */
+#experience {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+/* Style for the section heading */
+#experience h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Style for the experience list */
+#experience ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Style for individual experience items */
+#experience li {
+    margin-bottom: 20px;
+}
+
+/* Style for job titles (e.g., Data Collector) */
+#experience li h3 {
+    font-size: 20px;
+    color: #0077b5;
+    margin-bottom: 5px;
+}
+
+/* Style for company names and dates */
+#experience li p {
+    font-size: 19px;
+    color: #666;
+    margin: 0;
+}
+
+/* Style for job descriptions */
+#experience li p:last-child {
+    font-size: 19px;
+    color: #444;
+    margin-top: 10px;
+}
+
+
+/* Style for the 'Education' section */
+#education {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+/* Style for the section heading */
+#education h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Style for the education list */
+.education-list {
+    list-style: none;
+    padding: 0;
+}
+
+/* Style for individual education items */
+.education-list li {
+    margin-bottom: 20px;
+}
+
+/* Style for degree titles (e.g., University Education) */
+.education-list li h3 {
+    font-size: 20px;
+    color: #0077b5;
+    margin-bottom: 5px;
+}
+
+/* Style for school/university names and dates */
+.education-list li p {
+    font-size: 19px;
+    color: #666;
+    margin: 0;
+}
+
+/* Style for the 'Projects' section */
+#projects {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+/* Style for the section heading */
+#projects h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Style for the project list */
+.project-list {
+    list-style: none;
+    padding: 0;
+}
+
+/* Style for individual project items */
+.project-list li {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for project names and links */
+.project-list li h3 {
+    font-size: 20px;
+    color: #0077b5; /* Link color */
+    margin-bottom: 5px;
+}
+
+/* Style for project descriptions */
+.project-list li p {
+    font-size: 19px;
+    color: #666;
+    margin: 0;
+}
+
+
+
+/* Style for the 'Contact Me' section */
+#contact {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+/* Style for the section heading */
+#contact h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Style for the contact information */
+#contact p {
+    font-size: 19px;
+    color: #666;
+    line-height: 1.5;
+}
+
+/* Style for the social media links */
+.social-media {
+    margin-top: 20px;
+}
+
+.social-media a {
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 15px;
+    color: #0077b5; /* LinkedIn blue color */
+    font-size: 18px;
+}
+
+.social-media a:hover {
+    color: #555; /* Change color on hover */
+}
+
+
+/* Style for the footer text */
+.footer-text h3 {
+    text-align: center; /* Center-align the text */
+    font-size: 5px;
+    color: greenyellow; /* Text color for the footer */
+    margin: 0; /* Add margin space top and bottom */
+}
+
+.short-line {
+    max-width: 700px; /* Adjust this value to control the maximum width */
+    margin: 20px auto; /* Centers the paragraphs on the page */
+}
