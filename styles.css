@@ -306,7 +306,18 @@ header ul li a:hover {
 }
 
 .social-media a:hover {
-    color: #555; /* Change color on hover */
+    color: #555; 
+}
+
+
+.social-media img {
+    width: 35px; 
+    height: 35px;
+}
+
+/* Optional: Add hover effects */
+.social-media a:hover img {
+    opacity: 0.8; /* Reduce opacity on hover */
 }
 
 
