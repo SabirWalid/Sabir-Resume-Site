@@ -102,7 +102,9 @@ header ul li a:hover {
 #about p {
     font-size: 19px; 
     color: #666; 
-    line-height: 1.5; 
+    line-height: 1.5;
+    margin-bottom: 50px; 
+    margin-top: 50px;
 }
 
 /* Style for the 'Skills' section */
@@ -330,6 +332,24 @@ header ul li a:hover {
 }
 
 .short-line {
-    max-width: 700px; /* Adjust this value to control the maximum width */
+    max-width: 1000px; /* Adjust this value to control the maximum width */
     margin: 20px auto; /* Centers the paragraphs on the page */
+}
+
+
+/* styles.css */
+header button {
+    background-color: violet; /* Background color */
+    color: black; /* Text color */
+    padding: 10px 20px; /* Padding */
+    border: none; /* Remove default button border */
+    cursor: pointer; /* Cursor style on hover */
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+header button:hover {
+    background-color: #0056b3; /* Background color on hover */
 }
