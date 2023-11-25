@@ -11,6 +11,7 @@
 
 /* Style for the background image */
 body {
+    margin-top: 0px;
     background-image: url('background.img2.jpg');
     background-size: cover; 
     background-attachment: fixed; 
@@ -22,7 +23,7 @@ header, ul, li {
     list-style: none;
     padding: 5px;
     margin: 10px;
-    margin-top: 10px;
+    margin-top: 5px;
     margin-bottom: 10px;
     font-size: 25px;
     color: black;
